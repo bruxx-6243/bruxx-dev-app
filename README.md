@@ -10,7 +10,7 @@ BRUXX DEV APP is a simple template for future projects including <b>HTML, CSS, S
 
 ##### Get the repositorie from GitHub
 The repository: 
-          `https://github.com/bruxx-6243`
+	`https://github.com/bruxx-6243`
 
 
  How to clone this repository?
