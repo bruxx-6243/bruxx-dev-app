@@ -13,11 +13,11 @@ The repository:
           `https://github.com/bruxx-6243`
 
 
- How to clone the repository?
-          
-          using https: - https://github.com/bruxx-6243/bruxx-dev-app.git
-	        using ssh key: - git@github.com:bruxx-6243/bruxx-dev-app.git
-	        using github cli: - gh repo clone bruxx-6243/bruxx-dev-app
+ How to clone this repository?
+
+	using https: - https://github.com/bruxx-6243/bruxx-dev-app.git
+	using ssh key: - git@github.com:bruxx-6243/bruxx-dev-app.git
+	using github cli: - gh repo clone bruxx-6243/bruxx-dev-app
           
           
 Owner:
