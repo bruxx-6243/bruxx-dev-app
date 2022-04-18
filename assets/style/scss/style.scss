@@ -1,0 +1,136 @@
+@import './variables/variables';
+@import './mixins/mixins';
+@import './placeholders/placeholders';
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: $dark-color;
+    font-family: $body-font;
+    color: $light-color;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+input, button, textarea{
+    outline: none
+}
+
+.container{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+// ===============================================================
+
+.container{
+    height: 100%;
+    @extend %flex-position;
+    flex-direction: column;
+}
+
+.loader{
+    margin-bottom: 2rem;
+}
+
+.content{
+    width: 100%;
+    text-align: center;
+}
+
+.content .title{
+    font-weight: $regular-font;
+    letter-spacing: .8rem;
+    margin-bottom: 1.5rem;
+}
+
+.description{
+    font-size: .908rem;
+    font-weight: $light-font;
+    letter-spacing: .1245rem;
+    line-height: 1.5rem;
+}
+
+.html{
+    color: $red-color;
+}
+
+.css{
+    color: $blue-color;
+}
+
+.scss{
+    color: $pink-color;
+}
+
+.javascript{
+    color: $yellow-color;
+}
+
+
+/* ========================= Loader ============================ */
+.color__pink{
+    animation: rotation1 2s infinite linear;
+    transform-origin: center;
+}
+
+
+
+@keyframes rotation1{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.color__blue{
+    animation:rotation2 2s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes rotation2{
+    0%{
+        transform: rotateZ(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.middle__text{
+    animation: scale 2s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}

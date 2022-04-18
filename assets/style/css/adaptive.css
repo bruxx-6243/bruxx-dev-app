@@ -1,0 +1,42 @@
+ /* ========== Desktop First =============== */
+
+/* Large Devices, Wide screens */
+@media only screen and (max-width: 1200px){
+
+
+}
+
+/* Large Devices, Desktop */
+@media only screen and (max-width: 992px){
+    .content .title{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* Small Devices, Tablest */
+@media only screen and (max-width: 768px){
+   
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+    .loader svg{
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    .content .title{
+        font-size: 1.3rem;
+    }
+
+    .description{
+        font-size: .87rem;
+    }
+}
+
+/* Custom, Iphone Retina */
+@media only screen and (max-width: 320px){
+
+}
